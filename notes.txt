@@ -1,0 +1,7 @@
+Main accent color: #5fc7ae
+
+Warm Blue: #4b7ad1
+
+Cool red: #f76a6a
+
+Bumble Yellow: #f7be69

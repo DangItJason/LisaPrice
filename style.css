@@ -218,10 +218,10 @@ transition: background 0.3s ease, border 0.3s ease, box-shadow 0.3s ease,left 0.
 .postItem p {line-height: 24px;padding: 0 36px; color: #7f7f7f;font-size: 16px;font-weight: 400;}
 
 .classesBox {height: 560px;width: 100%;padding-top: 157px; background-attachment: fixed;background-repeat: no-repeat;background-size: cover; background-position: 50% 0;text-align: center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing: border-box;}
-.classesCategory {display: inline-block;margin-bottom: 25px; line-height: 25px;padding: 0 10px;background: #000000; color: rgb(0, 0, 0);font-size: 12px;font-family: 'Montserrat', sans-serif;text-transform: uppercase;text-decoration: none;}
-.classesBox h3 {line-height: 56px;margin-bottom: 39px; color: rgb(0, 0, 0);font-size: 42px;font-weight: 300;text-transform: uppercase;}
+.classesCategory {display: inline-block;margin-bottom: 25px; line-height: 25px;padding: 0 10px;background: #37a000; color: rgb(255, 255, 255);font-size: 12px;font-family: 'Montserrat', sans-serif;text-transform: uppercase;text-decoration: none;}
+.classesBox h3 {line-height: 56px;margin-bottom: 39px; color: rgb(255, 255, 255);font-size: 42px;font-weight: 300;text-transform: uppercase;}
 
-.viewClasses, .viewClasses:visited {display: inline-block;line-height: 42px;width: 160px;border: 2px solid rgb(0, 0, 0);color: rgb(0, 0, 0);font-size: 12px;font-family: 'Montserrat', sans-serif;text-transform: uppercase;text-decoration: none;-webkit-transition: background 0.3s ease, color 0.3s ease;-moz-transition: background 0.3s ease, color 0.3s ease;-o-transition: background 0.3s ease, color 0.3s ease;transition: background 0.3s ease, color 0.3s ease; -webkit-border-radius: 23px;-moz-border-radius: 23px;border-radius: 23px; -webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing: border-box;}
+.viewClasses, .viewClasses:visited {display: inline-block;line-height: 42px;width: 160px;border: 2px solid rgb(255, 255, 255);color: rgb(255, 255, 255);font-size: 12px;font-family: 'Montserrat', sans-serif;text-transform: uppercase;text-decoration: none;-webkit-transition: background 0.3s ease, color 0.3s ease;-moz-transition: background 0.3s ease, color 0.3s ease;-o-transition: background 0.3s ease, color 0.3s ease;transition: background 0.3s ease, color 0.3s ease; -webkit-border-radius: 23px;-moz-border-radius: 23px;border-radius: 23px; -webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing: border-box;}
 .viewClasses:hover {background: #fff;color: a1a7d4;}
 
 span.price {display: block;color: #fff;font-size: 30px;font-weight: 400; text-align: center;}

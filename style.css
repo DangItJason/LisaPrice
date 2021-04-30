@@ -132,8 +132,7 @@ transition: background 0.3s ease, border 0.3s ease, box-shadow 0.3s ease,left 0.
 .slide.active .slideDesc {top: 50%;opacity: 1;}
 .slideDesc h2 {line-height: 70px;margin-bottom: 38px; color: rgb(255, 255, 255);font-size: 60px;font-weight: 300;text-transform: uppercase;}
 .learnMoreMain {display: inline-block;line-height: 60px;padding: 0 40px;background: #37a000; color: #fff;font-size: 40px;;font-weight: 300;-family: 'Montserrat', sans-serif;text-decoration: none;text-transform: uppercase;-webkit-border-radius: 23px;-moz-border-radius: 23px;border-radius: 23px;-webkit-transition: background 0.3s ease;-moz-transition: background 0.3s ease;-o-transition: background 0.3s ease;transition: background 0.3s ease;}
-.learnMore, .learnMore:visited {display: inline-block;line-height: 46px;padding: 0 40px;background: #37a000; color: #fff;font-size: 12px;font-family: 'Montserrat', sans-serif;text-decoration: none;text-transform: uppercase;-webkit-border-radius: 23px;-moz-border-radius: 23px;border-radius: 23px;-webkit-transition: background 0.3s ease;-moz-transition: background 0.3s ease;-o-transition: background 0.3s ease;transition: background 0.3s ease;}
-.learnMore:hover {background: #70d3bb;}
+.learnMore, .learnMore:visited {display: inline-block;line-height: 46px;padding: 0 40px;background: #ffffff; color: #37a000;font-size: 12px;font-family: 'Montserrat', sans-serif;text-decoration: none;text-transform: uppercase;-webkit-border-radius: 23px;-moz-border-radius: 23px;border-radius: 23px;-webkit-transition: background 0.3s ease;-moz-transition: background 0.3s ease;-o-transition: background 0.3s ease;transition: background 0.3s ease;}
 .bx-wrapper .bx-pager {bottom: 33px;}
 .bx-wrapper .bx-pager.bx-default-pager a {width: 10px;height: 10px;margin: 0 5px; border: 1px solid rgba(0,0,0,0);background: rgba(255,255,255,0.6);-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-o-transition: all 0.3s ease;transition: all 0.3s ease;background-clip: padding-box; -webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing: border-box;}
 .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:hover {background: rgba(0,0,0,0);border-color: rgba(255,255,255,0.8);}
@@ -146,12 +145,12 @@ transition: background 0.3s ease, border 0.3s ease, box-shadow 0.3s ease,left 0.
 .mainItem {position: relative;}
 .mainItemImg {position: relative; float: left;width: 50%;}
 .mainItemImg img {display: block;width: 100%;max-width: 100%;height: 750px;}
-.mainItemDesc {position: absolute;right: 0;top: 0;width: 50%;height: 100%;padding: 130px 50px 0; background: #37a000; text-align: center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing: border-box;}
-.mainItemDesc h3 {position: relative; line-height: 56px;margin-bottom: 70px; color: #fff;font-size: 42px;font-weight: 300;text-transform: uppercase;}
+.mainItemDesc {position: absolute;right: 0;top: 0;width: 50%;height: 100%;padding: 130px 50px 0; background: #ffffff; text-align: center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing: border-box;}
+.mainItemDesc h3 {position: relative; line-height: 56px;margin-bottom: 70px; color: #333333;font-size: 42px;font-weight: 300;text-transform: uppercase;}
 .mainItemDesc h3:before {position: absolute;left: 50%;bottom: -37px;width: 46px;height: 1px; margin: 0 0 0 -23px;background: #96e9d5;content: "";}
-.mainItemDesc p {line-height: 32px;margin-bottom: 72px; color: #ffffff;font-size: 22px;font-weight: 400;}
-.mainItemDesc .viewMore, .mainItemDesc .viewMore:visited {display: inline-block;line-height: 42px;width: 160px;border: 2px solid #ffffff;color: #ffffff;font-size: 12px;font-family: 'Montserrat', sans-serif;text-decoration: none;text-transform: uppercase;-webkit-transition: background 0.3s ease, color 0.3s ease;-moz-transition: background 0.3s ease, color 0.3s ease;-o-transition: background 0.3s ease, color 0.3s ease;transition: background 0.3s ease, color 0.3s ease;-webkit-border-radius: 23px;-moz-border-radius: 23px;border-radius: 23px;}
-.mainItemDesc .viewMore:hover {background: #ffffff;color: #ffffff;}
+.mainItemDesc p {line-height: 32px;margin-bottom: 72px; color: #7f7f7f;font-size: 22px;font-weight: 400;}
+.mainItemDesc .viewMore, .mainItemDesc .viewMore:visited {display: inline-block;line-height: 42px;width: 160px;border: 2px solid #37a000;color: #37a000;font-size: 12px;font-family: 'Montserrat', sans-serif;text-decoration: none;text-transform: uppercase;-webkit-transition: background 0.3s ease, color 0.3s ease;-moz-transition: background 0.3s ease, color 0.3s ease;-o-transition: background 0.3s ease, color 0.3s ease;transition: background 0.3s ease, color 0.3s ease;-webkit-border-radius: 23px;-moz-border-radius: 23px;border-radius: 23px;}
+.mainItemDesc .viewMore:hover {background: #ffffff;color: #37a000;}
 
 .mainItemRight .mainItemImg {float: right;}
 .mainItemRight .mainItemDesc {left: 0;right: auto;}
@@ -163,9 +162,9 @@ transition: background 0.3s ease, border 0.3s ease, box-shadow 0.3s ease,left 0.
 .gridItemDesc h3 {position: relative; line-height: 30px;margin-bottom: 48px; color: #fff;font-size: 22px;font-weight: 300;text-transform: uppercase;}
 .gridItemDesc h3:before {position: absolute;left: 0;bottom: -27px;width: 46px;height: 1px;background: #37a000;content: "";}
 .gridItemDesc p {line-height: 24px;margin-bottom: 20px;  color: #ffffff;font-size: 16px;font-weight: 300;} 
-.gridItemDesc .viewMore {position: absolute;left: 40px;bottom: 27px; width: calc(100% - 70px); line-height: 14px; color: #ffffff;font-size: 12px;font-family: 'Montserrat', sans-serif;text-decoration: none;text-transform: uppercase;-webkit-transition: color 0.3s ease;-moz-transition: color 0.3s ease;-o-transition: color 0.3s ease;transition: color 0.3s ease;}
+.gridItemDesc .viewMore {position: absolute;left: 40px;bottom: 27px; width: calc(100% - 70px); line-height: 14px; color: #37a000;font-size: 12px;font-family: 'Montserrat', sans-serif;text-decoration: none;text-transform: uppercase;-webkit-transition: color 0.3s ease;-moz-transition: color 0.3s ease;-o-transition: color 0.3s ease;transition: color 0.3s ease;}
 .gridItem2:hover .gridItemDesc .viewMore,
-.gridItem:hover .gridItemDesc .viewMore {color: #fff;}
+.gridItem:hover .gridItemDesc .viewMore {color: #37a000;}
 .gridItemDesc .viewMore i {position: absolute;right: 0;top: -1px;}
 .gridItemDesc .viewMore i path {-webkit-transition: fill 0.3s ease;-moz-transition: fill 0.3s ease;-o-transition: fill 0.3s ease;transition: fill 0.3s ease;}
 .gridItem2:hover .gridItemDesc .viewMore i path,

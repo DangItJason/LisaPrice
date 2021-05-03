@@ -263,15 +263,20 @@ span.price span {position: relative;top: -11px;left: -2px; font-size: 14px;}
 .ourStory {padding: 140px 0;}
 .storyImg {float: left;width: 570px;}
 .storyImg img {display: block;width: 100%;max-width: 100%;height: auto;}
-.storyDesc {float: right;width: 500px;}
+.storyDesc {float: left;width: 1250px;}
+.aboutDesc {float: right;width: 500px;}
 .contactInfo h3,
 .storyDesc h3 {position: relative; line-height: 36px;margin-bottom: 106px; color: #333333;font-size: 56px;font-family: 'Lato', sans-serif;font-weight: 300;}
+.aboutDesc h3 {position: relative; line-height: 36px;margin-bottom: 106px; color: #333333;font-size: 56px;font-family: 'Lato', sans-serif;font-weight: 300;}
 .contactInfo h3:before,
 .storyDesc h3:before {position: absolute;left: 3px;bottom: -51px;width: 46px;height: 1px;background: #ffffff;content: "";}
+.aboutDesc h3:before {position: absolute;left: 3px;bottom: -51px;width: 46px;height: 1px;background: #ffffff;content: "";}
 .contactInfo p,
-.storyDesc p {line-height: 30px;margin-bottom: 30px; color: #333333;font-size: 16px;font-family: 'Lato', sans-serif;font-weight: 300;}
+.storyDesc p {line-height: 30px;margin-bottom: 30px; color: #333333;font-size: 20px;font-family: 'Lato', sans-serif;font-weight: 300;}
+.aboutDesc p {line-height: 30px;margin-bottom: 30px; color: #333333;font-size: 20px;font-family: 'Lato', sans-serif;font-weight: 300;}
 .contactInfo p {line-height: 26px;}
 .storyDesc p:last-child {margin-bottom: 0;}
+.aboutDesc p:last-child {margin-bottom: 0;}
 
 /* Our team */
 .ourTeam {background: #f4f4f4;}

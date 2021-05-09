@@ -124,12 +124,14 @@ transition: background 0.3s ease, border 0.3s ease, box-shadow 0.3s ease,left 0.
 .container {padding-bottom:262px;width:100%; overflow:hidden;} 
 
 /* Home slider */
+/* Portrait and Landscape */
 .homeBxSliderWrap {width: 100%; overflow: hidden;}
 .homeBxSlider {width: 100%;height: 100%;opacity: 0;-webkit-transition: opacity 0.7s ease;-moz-transition: opacity 0.7s ease;-o-transition: opacity 0.7s ease;transition: opacity 0.7s ease;}
 .homeBxSlider.ready {opacity: 1;}
 .homeBxSlider .slide {position: relative; width: 100%; background-repeat: no-repeat;background-position: center center;background-size: cover;}
 .slideDesc {position: absolute;left: 0;top: 55%;width: 100%;text-align: center;opacity: 0;-webkit-transition: opacity 0.4s ease, top 0.4s linear;-moz-transition: opacity 0.4s ease, top 0.4s linear;-o-transition: opacity 0.4s ease, top 0.4s linear;transition: opacity 0.4s ease, top 0.4s linear;}
-.slide.active .slideDesc {top: 50%;opacity: 1;}
+/* .slide.active{top: 50%;opacity: 1; background-image: url(images/content/home-4.jpg);} */
+.slide.active .slideDesc{top: 50%;opacity: 1;}
 .slideDesc h2 {line-height: 70px;margin-bottom: 38px; color: rgb(255, 255, 255);font-size: 60px;font-weight: 300;text-transform: uppercase;}
 .learnMoreMain {display: inline-block;line-height: 60px;padding: 0 40px;background: #37a000; color: #fff;font-size: 40px;;font-weight: 300;-family: 'Montserrat', sans-serif;text-decoration: none;text-transform: uppercase;-webkit-border-radius: 23px;-moz-border-radius: 23px;border-radius: 23px;-webkit-transition: background 0.3s ease;-moz-transition: background 0.3s ease;-o-transition: background 0.3s ease;transition: background 0.3s ease;}
 .learnMore, .learnMore:visited {display: inline-block;line-height: 46px;padding: 0 40px;background: #ffffff; color: #37a000;font-size: 12px;font-family: 'Montserrat', sans-serif;text-decoration: none;text-transform: uppercase;-webkit-border-radius: 23px;-moz-border-radius: 23px;border-radius: 23px;-webkit-transition: background 0.3s ease;-moz-transition: background 0.3s ease;-o-transition: background 0.3s ease;transition: background 0.3s ease;}
@@ -216,12 +218,11 @@ transition: background 0.3s ease, border 0.3s ease, box-shadow 0.3s ease,left 0.
 .postItem:hover h4 a {color: #37a000;}
 .postItem p {line-height: 24px;padding: 0 36px; color: #7f7f7f;font-size: 16px;font-weight: 400;}
 
-.classesBox {height: 560px;width: 100%;padding-top: 157px; background-attachment: fixed;background-repeat: no-repeat;background-size: cover; background-position: 50% 0;text-align: center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing: border-box;}
+.classesBox {height: 850px;width: 100%;padding-top: 157px; background-attachment: fixed;background-repeat: no-repeat;background-size: cover; background-position: 50% 0;text-align: center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing: border-box;}
 .classesCategory {display: inline-block;margin-bottom: 25px; line-height: 25px;padding: 0 10px;background: #37a000; color: rgb(255, 255, 255);font-size: 12px;font-family: 'Montserrat', sans-serif;text-transform: uppercase;text-decoration: none;}
-.classesBox h3 {line-height: 56px;margin-bottom: 39px; color: rgb(255, 255, 255);font-size: 42px;font-weight: 300;text-transform: uppercase;}
+.classesBox h3 {line-height: 56px;margin-bottom: 39px; color: rgb(0, 0, 0);font-size: 42px;font-weight: 300;text-transform: uppercase;}
 
 .viewClasses, .viewClasses:visited {display: inline-block;line-height: 42px;width: 160px;border: 2px solid rgb(255, 255, 255);color: rgb(255, 255, 255);font-size: 12px;font-family: 'Montserrat', sans-serif;text-transform: uppercase;text-decoration: none;-webkit-transition: background 0.3s ease, color 0.3s ease;-moz-transition: background 0.3s ease, color 0.3s ease;-o-transition: background 0.3s ease, color 0.3s ease;transition: background 0.3s ease, color 0.3s ease; -webkit-border-radius: 23px;-moz-border-radius: 23px;border-radius: 23px; -webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing: border-box;}
-.viewClasses:hover {background: #fff;color: a1a7d4;}
 
 span.price {display: block;color: #fff;font-size: 30px;font-weight: 400; text-align: center;}
 span.price span {position: relative;top: -11px;left: -2px; font-size: 14px;}
@@ -267,7 +268,7 @@ span.price span {position: relative;top: -11px;left: -2px; font-size: 14px;}
 .aboutDesc {float: right;width: 500px;}
 .contactInfo h3,
 .storyDesc h3 {position: relative; line-height: 36px;margin-bottom: 106px; color: #333333;font-size: 56px;font-family: 'Lato', sans-serif;font-weight: 300;}
-.aboutDesc h3 {position: relative; line-height: 36px;margin-bottom: 106px; color: #333333;font-size: 56px;font-family: 'Lato', sans-serif;font-weight: 300;}
+.aboutDesc h3 {position: relative; line-height: 36px;margin-bottom: 50px; color: #333333;font-size: 56px;font-family: 'Lato', sans-serif;font-weight: 300;}
 .contactInfo h3:before,
 .storyDesc h3:before {position: absolute;left: 3px;bottom: -51px;width: 46px;height: 1px;background: #ffffff;content: "";}
 .aboutDesc h3:before {position: absolute;left: 3px;bottom: -51px;width: 46px;height: 1px;background: #ffffff;content: "";}

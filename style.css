@@ -159,14 +159,18 @@ transition: background 0.3s ease, border 0.3s ease, box-shadow 0.3s ease,left 0.
 
 .gridItem {position: relative;display: block; float: left;width: 50%;}
 .gridItemImg {float: left;width: 50%;}
-.gridItemImg img {display: block;width: 100%;max-width: 100%;height:auto;}
+.gridItemImg img {display: block;width: 100%;max-width: 100%;height:auto; min-height: 370px}
 .gridItemDesc {position: absolute;right: 0;top: 0;width: 50%;height: 100%;padding: 50px 30px 0 40px; background: #37a000;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing: border-box;}
+.gridItemDesc2 {position: absolute;right: 0;top: 0;width: 50%;height: 100%;padding: 50px 30px 0 40px; background: #ffffff;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing: border-box;}
 .gridItemDesc h3 {position: relative; line-height: 30px;margin-bottom: 48px; color: #fff;font-size: 22px;font-weight: 300;text-transform: uppercase;}
-.gridItemDesc h3:before {position: absolute;left: 0;bottom: -27px;width: 46px;height: 1px;background: #37a000;content: "";}
+.gridItemDesc2 h3 {position: relative; line-height: 30px;margin-bottom: 48px; color: rgb(0, 0, 0);font-size: 22px;font-weight: 300;text-transform: uppercase;}
+.gridItemDesc h3:before {position: absolute;left: 0;bottom: -27px;width: 46px;height: 1px;background: #ffffff;content: "";}
+.gridItemDesc2 h3:before {position: absolute;left: 0;bottom: -27px;width: 46px;height: 1px;background: #37a000;content: "";}
 .gridItemDesc p {line-height: 24px;margin-bottom: 20px;  color: #ffffff;font-size: 16px;font-weight: 300;} 
-.gridItemDesc .viewMore {position: absolute;left: 40px;bottom: 27px; width: calc(100% - 70px); line-height: 14px; color: #37a000;font-size: 12px;font-family: 'Montserrat', sans-serif;text-decoration: none;text-transform: uppercase;-webkit-transition: color 0.3s ease;-moz-transition: color 0.3s ease;-o-transition: color 0.3s ease;transition: color 0.3s ease;}
-.gridItem2:hover .gridItemDesc .viewMore,
-.gridItem:hover .gridItemDesc .viewMore {color: #37a000;}
+.gridItemDesc2 p {line-height: 24px;margin-bottom: 20px;  color: #000000;font-size: 16px;font-weight: 300;} 
+.gridItemDesc .viewMore {position: absolute;left: 40px;bottom: 27px; width: calc(100% - 70px); line-height: 14px; color: #ffffff;font-size: 12px;font-family: 'Montserrat', sans-serif;text-decoration: none;text-transform: uppercase;-webkit-transition: color 0.3s ease;-moz-transition: color 0.3s ease;-o-transition: color 0.3s ease;transition: color 0.3s ease;}
+.gridItemDesc2 .viewMore {position: absolute;left: 40px;bottom: 27px; width: calc(100% - 70px); line-height: 14px; color: #272626;font-size: 12px;font-family: 'Montserrat', sans-serif;text-decoration: none;text-transform: uppercase;-webkit-transition: color 0.3s ease;-moz-transition: color 0.3s ease;-o-transition: color 0.3s ease;transition: color 0.3s ease;}
+
 .gridItemDesc .viewMore i {position: absolute;right: 0;top: -1px;}
 .gridItemDesc .viewMore i path {-webkit-transition: fill 0.3s ease;-moz-transition: fill 0.3s ease;-o-transition: fill 0.3s ease;transition: fill 0.3s ease;}
 .gridItem2:hover .gridItemDesc .viewMore i path,

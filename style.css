@@ -271,7 +271,7 @@ span.price span {position: relative;top: -11px;left: -2px; font-size: 14px;}
 .storyDesc {float: left;width: 1250px;}
 .aboutDesc {float: right;width: 500px;}
 .contactInfo h3,
-.storyDesc h3 {position: relative; line-height: 36px;margin-bottom: 106px; color: #333333;font-size: 56px;font-family: 'Lato', sans-serif;font-weight: 300;}
+.storyDesc h3 {position: relative; line-height: 36px;margin-bottom: 50px; margin-top: 40px; color: #333333;font-size: 56px;font-family: 'Lato', sans-serif;font-weight: 300;}
 .aboutDesc h3 {position: relative; line-height: 36px;margin-bottom: 50px; color: #333333;font-size: 56px;font-family: 'Lato', sans-serif;font-weight: 300;}
 .contactInfo h3:before,
 .storyDesc h3:before {position: absolute;left: 3px;bottom: -51px;width: 46px;height: 1px;background: #ffffff;content: "";}

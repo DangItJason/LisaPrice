@@ -475,6 +475,9 @@ span.price span {position: relative;top: -11px;left: -2px; font-size: 14px;}
 @media only screen and (max-width: 600px) {
     .eventItemHeader {position: relative; min-height: 550px;border-bottom: 1px solid #e5e5e5; padding-left: 5px;background: #fff;}
 }
+@media only screen and (max-width: 400px) {
+    .eventItemHeader {position: relative; min-height: 600px;border-bottom: 1px solid #e5e5e5; padding-left: 5px;background: #fff;}
+}
 @media only screen and (min-width: 600px) {
     .eventItemHeader {position: relative; min-height: 300px;border-bottom: 1px solid #e5e5e5; padding-left: 40px;background: #fff;}
 }
